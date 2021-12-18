@@ -3,11 +3,12 @@ class plan extends Phaser.Scene {
 		super("join")
 	}
 	create() {
+		/*
 this.sound.pauseOnBlur = false;
 this.sound.play("audio_world",{
 	loop: true
 });
-
+*/
 
 		idle = this.add.sprite(200,300,"idle").setScale(.2);
 	this.anims.create({
@@ -22,7 +23,7 @@ this.sound.play("audio_world",{
 	// Fly
 	fly = this.add.sprite(500,300,"idle").setScale(.1);
 	fly.flipX = true;
-	fly.alpha = 0.000000001;
+	fly.alpha = 1;
 
 	this.anims.create({
     key: 'fly',
