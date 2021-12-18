@@ -67,19 +67,19 @@ class loading extends Phaser.Scene {
             }
             */
 
-            this.load.spritesheet("idle","../assets/idle.png",{
+            this.load.spritesheet("idle","assets/idle.png",{
             	frameWidth:  483,
             	frameHeight: 690
             });
 
-            this.load.spritesheet("fly","../assets/fly.png",{
+            this.load.spritesheet("fly","assets/fly.png",{
             	frameWidth:  800,
             	frameHeight: 812
             });
 
-            this.load.image("shapesBubble","../assets/shapesBubble.png");
-            this.load.image("send","../assets/icons/send.png");
-            this.load.audio("audio_world","../audio/OST_Into_the_Endless_Sky.mp3")
+            this.load.image("shapesBubble","assets/shapesBubble.png");
+            this.load.image("send","assets/icons/send.png");
+            this.load.audio("audio_world","audio/OST_Into_the_Endless_Sky.mp3")
         }
 
         create() {
