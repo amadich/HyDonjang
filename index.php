@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/public/styles/main.css">
+	<link rel="icon"  href="/public/assets/icons/frame-1.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HyDonjang</title>
+</head>
+<body>
+	<div id="input-form">
+            <input type="text" id="myText" />
+            
+        </div>
+	<script type="text/javascript" src="/public/lib/phaser.min.js"></script>
+	<script type="text/javascript" src="/public/main/loading.js"></script>
+	<script type="text/javascript" src="/public/main/plan.js"></script>
+	<script type="text/javascript" src="/public/lib/game.js"></script>
+</body>
+</html>

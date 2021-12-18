@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	background-color: #1a7339f2;
+	/*text-align: center;*/
+	/*cursor: url("/public/assets/icons/cursor.cur",pointer);*/
+}
+canvas{
+	position: relative;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 0 0 90px #00ff52;
+	/*z-index: -1;
+	cursor: url("/public/assets/icons/cursor.cur",pointer);*/
+}
+input{
+	position: relative;
+	z-index: +2;
+	height: 30px;
+	outline: none;
+	border-radius: 5px;
+	box-shadow: 0 0 90px #999;
+	font-family: cursive;
+	font-weight: 700;
+	padding-left: 30px;
+	cursor: url("/public/assets/icons/cursor.cur",pointer); 
+}
+#input-form{
+	position: absolute;
+	z-index: +3;
+}
